@@ -2,13 +2,17 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Cadastro de produtos</title>
 <%@ include file="header.jsp" %>
 </head>
+
 <body>
+
 <%@ include file="menu.jsp" %>
+  
   <div class="container">
     <h1>Cadastro de Produto</h1>
   
@@ -28,6 +32,9 @@
       <input type="submit" value="Salvar" class="btn btn-primary">
     </form>
   </div>
+  
 <%@ include file="footer.jsp" %>
+
 </body>
+
 </html>
